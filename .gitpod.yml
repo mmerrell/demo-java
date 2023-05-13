@@ -1,0 +1,12 @@
+# Please adjust to your needs (see https://www.gitpod.io/docs/introduction/learn-gitpod/gitpod-yaml)
+# and commit this file to your remote git repository to share the goodness with others.
+
+# Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
+image: gitpod/workspace-java-11
+
+
+
+tasks:
+  - init: echo "Initializing workspace..."
+  - command: ./setup.sh
+
